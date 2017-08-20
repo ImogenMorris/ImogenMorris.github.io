@@ -13,14 +13,14 @@ A notepad and pencil for each player, plus a set of formula cards.
 
 ### Rules of Play
 
-Each player is initially dealt a single random formula card. The initial system is S5. They will then proceed to draw a truth tree (tableau) in the following manner: in the first round, everyone will negate the target formula. The next round, everyone will write the next line of their truth tree, using any of the rules allowed in S5. However, before the third round begins, a die will be rolled. A 5 or 6 mean that the system will continue to be S5. A 1 means system K, 2 means T, 3 means B and 4 means S4. If anyone has previously performed a step that was invalid in the new system, they must cross out that line (and any following lines that depended on that step). They continue in this way, writing a new line* each round and rolling the dice every \( n\textsuperscript{th} \) round, where \( n = 1 \) in the most difficult game, and \( n = 10 \) in a much easier game. The aim of the game is to be the first to produce a correct derivation of the formula. The validity of each step of the winning derivation should be examined by the other players.
+Each player is initially dealt a single random formula card. The initial system is S5. They will then proceed to draw a truth tree (tableau) in the following manner: in the first round, everyone will negate the target formula. The next round, everyone will write the next line of their truth tree, using any of the rules allowed in S5. However, before the third round begins, a die will be rolled. A 5 or 6 mean that the system will continue to be S5. A 1 means system K, 2 means T, 3 means B and 4 means S4. If anyone has previously performed a step that was invalid in the new system, they must cross out that line (and any following lines that depended on that step). They continue in this way, writing a new line* each round and rolling the dice every \\( n\textsuperscript{th} \\) round, where \\( n = 1 \\) in the most difficult game, and \\( n = 10 \\) in a much easier game. The aim of the game is to be the first to produce a correct derivation of the formula. The validity of each step of the winning derivation should be examined by the other players.
 
-*If the tableau is split, e.g. by dividing \( p \vee q\) into \( p\) and \( q\), then the line is not split, but continues across both halves. It is obligatory to write a line each round: this cannot be skipped. Nor can lines be crossed out unless they are invalid in the present system.
+*If the tableau is split, e.g. by dividing \\( p \vee q\\) into \\( p\\) and \\( q\\), then the line is not split, but continues across both halves. It is obligatory to write a line each round: this cannot be skipped. Nor can lines be crossed out unless they are invalid in the present system.
 
 Formula Cards
 
 To make the formula cards, the following formulas (all valid in S5) should be printed on separate cards:
-{% raw %}
+
 $$ (\diamond (p \vee q) \rightarrow (\diamond p \vee \diamond q)),      (\square (\square (p \rightarrow \square p) \rightarrow \square p) \rightarrow (\diamond \square p \rightarrow \square p))$$
 
 $$ (\square \neg p \rightarrow \square (p \rightarrow \neg p)),     (\square (\square p \vee \square q) \leftrightarrow (\square p \vee \square q))$$
@@ -38,4 +38,4 @@ $$ (p \rightarrow (\diamond \square \square p \rightarrow \square p)),      (
 $$ (\square \diamond p \leftrightarrow \square \diamond \square \diamond p),      \square (p \rightarrow q) \rightarrow \square (\square p \rightarrow \square q)$$
 
 $$ ((\diamond \diamond p \rightarrow \diamond p),     \diamond (p \vee q) \leftrightarrow (\diamond p \vee \diamond q)$$
- {% endraw %}
+
