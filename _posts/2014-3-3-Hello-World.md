@@ -17,7 +17,7 @@ Each player is initially dealt a single random formula card. The initial system 
 
 *If the tableau is split, e.g. by dividing \\( p \vee q\\) into \\( p\\) and \\( q\\), then the line is not split, but continues across both halves. It is obligatory to write a line each round: this cannot be skipped. Nor can lines be crossed out unless they are invalid in the present system.
 
-Formula Cards
+### Formula Cards
 
 To make the formula cards, the following formulas (all valid in S5) should be printed on separate cards:
 
