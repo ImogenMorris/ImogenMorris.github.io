@@ -3,4 +3,4 @@ layout: post
 title: Brilliant Geometry Exhibition Review
 ---
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![appollonian gasket](https://github.com/ImogenMorris/ImogenMorris.github.io/blob/master/images/IMG_20170603_114449776.jpg)
