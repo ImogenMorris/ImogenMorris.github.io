@@ -12,7 +12,7 @@ This summer I helped to curate an exhibition on mathematical projections at Summ
 
  The map of the world that we are most used to, the Mercator projection, preserves the relative areas of the countries. This projection fits onto a rectangle. However, if we would instead like to preserve the angles between lines, we can use stereographic projection. We can perform this projection in real life. First we need a transparent sphere, with some pattern marked on it, and a wall. Then, by holding a light source at the North Pole of the sphere directly opposite the wall, we see the pattern projected onto the wall. The pattern will be distorted, but all the angles between lines will be exactly the same. If we wanted to make a map of the countries of the world in this way, we would need an infinitely large wall, because the closer the country is to the North Pole, the larger it will appear on the map. In fact, there would be a single point of the sphere which would never make it on to the map. Can you guess which?
  
- At the exhibition we had a 3D-printed model of the Earth which we projected on the wall using a torch. All the countries on the sphere were reflected when you looked at them on the sphere. This is because it is actually the inside of the sphere which is projected onto the wall by stereographic projection.
+ At the exhibition we had a 3D-printed model of the Earth which we projected on the wall using a torch. All the countries on the sphere appeared to be the wrong-way round. This is because it is actually the inside of the sphere which is projected onto the wall by stereographic projection.
 
 ### A Hypercube Zoetrope
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lhN_UZXazf8" frameborder="0" allowfullscreen></iframe>
